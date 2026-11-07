@@ -1,0 +1,74 @@
+{
+  "task": "9d5542f4a7c7a57e74b9f3ff0436e1db",
+  "roles": {
+    "authority": {
+      "sign": "XkolDCVQXYTpt5JFnzlNxODjWblKhIrWfaytfJCJWuM=",
+      "encrypt": "32q9OKumaoo/8erlDjB6GmsonSmATmVaS3UDR/Lqqik="
+    },
+    "controller": {
+      "sign": "d+wl1/koTKKUu45L/puFYwSbZTM5+5MmqmMyRT7bKDU=",
+      "encrypt": "k8RN6GAcgvLwabT6v7hP2xm/6UOWmJ1NSLr5iZXPYFQ="
+    },
+    "broker": {
+      "sign": "nRxTGfSRDiEHX3iO/lLthvU5dNYkwAp376twOhS6hdE=",
+      "encrypt": "wUEcQzKt+gO7qmi53IPFBIio9oT1eWxbRHXOnqWCXS4="
+    },
+    "requester": {
+      "sign": "G+EUAjDc8+RHcr2TRd3dlQUC0rpzOjGn7c7wcyxOx1Q=",
+      "encrypt": "rh9AvjE8ShIihhdv+y6bz89EStd/IwlUQWfbtlzWaTw="
+    },
+    "ledger": {
+      "sign": "4aZHeVChNnjfVEbOOGOKeyelyoZSXHBF2meVbfYxQeY=",
+      "encrypt": "tSwNgIq01B6jLtQyH0THpl/0nQrioxA5nCGSOITJ9xI="
+    }
+  },
+  "paillier_n": "16248576067872647645496598301430513024667213745194164142182070254731693566696143838599150617616115074304363552557567458933037085226878658716440004948195631631935737668844935871205701034653785467017375636608098806061241921603717734785588483969317044880896578316805610179298438507532052510279615786265343420794444272306189708574286402786741779359923251220064854240967602060561821268401032300213808099442689162286232574879168988332353503910502723403045713524919788188790063173866304997755768802676953424833791019277140796018136155358102031488686543584316574367796484167356669654777824661226400866532827104654643598774699",
+  "ports": {
+    "broker": 22401,
+    "requester": 22402,
+    "ledger": 22403
+  },
+  "n": 100,
+  "D": 100,
+  "T": 50,
+  "budget": 450.0,
+  "eps1": 2.1,
+  "eps2": 2.7,
+  "grade_precision": 0.1,
+  "anonymity": "fresh task-round aliases; broker routing hidden from requester; value/trajectory fingerprints allowed leakage",
+  "trust": "honest-but-curious noncolluding broker and requester; malicious workers; trusted enrollment",
+  "client_authentication": "per-worker-mtls-owner-bound; scheduler-separated; requester-signed-task-context-v1",
+  "state_attestation": "digest-only-v1; no full ciphertexts in issuer signing requests",
+  "policy": {
+    "opportunity_coefficient": 3.0,
+    "progress_coefficients": [
+      0.5,
+      0.5
+    ],
+    "grade_coefficients": [
+      0.5,
+      0.5
+    ],
+    "unknown_target": [
+      0.1,
+      0.5
+    ],
+    "credible_reference": 0.1,
+    "target_scale": 0.7,
+    "secondary_weight": 0.5,
+    "evidence_cap": 4.0,
+    "source_sha256": {
+      "anonymous_state.py": "ddacc76fc618444d3b6b9c6ab7ba562b075c3333f2bd5ab2297528c283958e60",
+      "evm_ledger.py": "e0172df44f770572f9f3f86ce31ffb04bb2e7ba431f66200b4adb3ed2372c645",
+      "formal_campaigns.py": "2fa1fbc4abd371004b54afbc482ea1e264fecf2c7b92f7174f38f7d319f60c5c",
+      "functional_check80.py": "2934c85275d24cbd7991291fde8eb0033e1afea6e58f51ab6e491df29045d81a",
+      "launch_roles.py": "5e470ee808d1ca4c1a8fd9878cca3a59bce4f26b278a4ca22ad306dec2dbec0f",
+      "prepare.py": "54ddd3458430177e739bf69da27ed322c45e8ab232d93460dcf2ba2f86e27376",
+      "run_clients.py": "0cf48824c63033e98212d0089009867927294a778f78ec0dbdc8a0a4f2ea69be",
+      "securewire.py": "a6faf4f7e93741fbcbd7d549a9e55bdec36d3451ff97ebffa5cf617dc611fd9d",
+      "services.py": "412ba37b6a430b419752260b44d656f73e126d1f2e8ccca02b280acdaec7c4aa",
+      "stop_roles.py": "683bd2c63f21ad88ee354fe459c0fafc75449d8ca229dfc03182adec0d654e99",
+      "transport.py": "bfc5fc5b29bf0e757126a679e79d2e21e330416b12aed5016cbb68ac368a20e1"
+    }
+  }
+}

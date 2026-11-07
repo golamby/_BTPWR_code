@@ -1,0 +1,8 @@
+﻿result,command,primary_input,sha256_prefix
+Table V (default),python experiments/collect_formal_q36.py,evidence/numerical/campaign_metrics.csv,0EBEE609AB4A
+Table VI (common-task error),python experiments/collect_formal_q36.py,evidence/numerical/pairwise_common_errors.csv,67B2D0836362
+Table VII (bias trajectory),python experiments/collect_reference_stress.py,evidence/numerical/round_metrics.csv,AA5FCE266FD7
+Figs. 3-8 (E1-E8),python experiments/plot_formal_q36.py --input evidence/numerical --output figures_redrawn,evidence/numerical/campaign_metrics.csv; round_metrics.csv,0EBEE609AB4A; AA5FCE266FD7
+Table VIII (parameter sweeps),python experiments/collect_review_sweeps.py,evidence/numerical/campaign_metrics.csv,0EBEE609AB4A
+Protocol timing,python experiments/collect_serial_timing.py,data/formal_protocol,timing JSON files
+Fig. 9 (bias trajectory),python experiments/plot_bias_trajectory.py --input evidence/numerical --output figures_redrawn,evidence/numerical/round_metrics.csv,AA5FCE266FD7

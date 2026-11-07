@@ -1,0 +1,139 @@
+{
+  "mobility": {
+    "tdrive": {
+      "provider": "https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/",
+      "archives": [
+        {
+          "file": "06.zip",
+          "sha256": "594eb4c9dd505c1a0b8c299321578602fd54a803632d654a8add8248c4156874",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/06.zip"
+        },
+        {
+          "file": "07.zip",
+          "sha256": "7c7943fb1c97bd0334aedeabad71ccfa263e0a2a696940a57a73d98cfa883feb",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/07.zip"
+        },
+        {
+          "file": "08.zip",
+          "sha256": "09c519b3dd984a132c418bca299721d1e6b05185e864e856d2b0012426d64844",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/08.zip"
+        },
+        {
+          "file": "09.zip",
+          "sha256": "68aa8cdbc2daa6722a531ce74585afe9f19e60c63bfa773412881f401b81cecc",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/09.zip"
+        },
+        {
+          "file": "010.zip",
+          "sha256": "8bff58bcd51710033ba6acfecd80d4c8e19060ef64eb1a974f2e7db50cdcd213",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/010.zip"
+        },
+        {
+          "file": "011.zip",
+          "sha256": "09b1d794a5da3709b89d76a1ca24e6bd6d4f5f159b41af1d054cf49372382cc1",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/011.zip"
+        },
+        {
+          "file": "012.zip",
+          "sha256": "f41cf0f047cb86575092504739ce4da99416f6fc8b9206bc66793403d652f2b2",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/012.zip"
+        },
+        {
+          "file": "013.zip",
+          "sha256": "92cfbc6aa4c88d6301b0b6e5d971fe3f9cc936d8db0443f6cce14f27a8359702",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/013.zip"
+        },
+        {
+          "file": "014.zip",
+          "sha256": "c13d36bd0c891213d33c9cfe37213bb6b3ed2e498270a0a6c765419a3cecf95e",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/014.zip"
+        }
+      ],
+      "normalized_arrays": {
+        "user_ids": "d8f8a6480f4aa2c448756269da97b16c81c59de2302b7d4569c7d12106715074",
+        "training_counts": "cc288404bcfb6558ceb2464308136bf90b424a270410d85f5948a6dd15e79109",
+        "event_worker": "3661317e97e9e4a47e46249e5e37da4a37b0e5c7f02ba245bfe1386b85797535",
+        "event_time": "2afbfdeb5112ce925d378e8c5254713362af1fdef0c0f35287b04878e5522fdd",
+        "event_cell": "8798cc998534a2bc86d89c896ad2377c9d65b9d7c4f9b86b80863d005204f966",
+        "cutoff": "f4424255345eee89ed591347a49bf715a30db53cfd2d756119d270fa661a2747",
+        "bbox": "a41bfa87e21ea9adbdac4c98835ed25a075da56d29366854d81bba0a03af396a",
+        "source_days": "ba10e1a6ed177997f1b3cf00ee42133ac6c0dffed8723c829e5210a5c7c902e7",
+        "source_first": "967413bea32388bda1b66a15d7b12c4747a99fc8d7d0f61a7b5afe96f9132ba7",
+        "source_end": "a40cd8a9fcf09c490c1043a25822ca1a68c082d649890eb3fc247480e1d24f97"
+      }
+    },
+    "foursquare_tky": {
+      "provider": "https://sites.google.com/site/yangdingqi/home/foursquare-dataset",
+      "archives": [
+        {
+          "file": "dataset_tsmc2014.zip",
+          "sha256": "cbe3fdab373d24b09b5fc53509c8958c77ff72b6c1a68589ce337d4f9a80235b",
+          "url": "https://drive.google.com/uc?export=download&id=1VE67jfSN-GV6fkCfuyBEQJzk_qy-SfOk"
+        }
+      ],
+      "normalized_arrays": {
+        "user_ids": "fd1f373aa49c59b510754afe4bf704794015766a44a047df2b5daf2feb4e209d",
+        "training_counts": "b19f280530ff63b3bc60065c3beebe8cc70e7ef934245aaf8258d3de47968868",
+        "event_worker": "3a6bd9775a50da0e39365c579b58760549a922d8b1e6ac2cc3722ba5417854dd",
+        "event_time": "03dff2cee5d784bea6e041cc22aefad866bb1f7d119435b9ddad83c5a24d60fa",
+        "event_cell": "f97efcb52f6c732bdef051b9006f39054318fca223d6dce7383355238a7e91f5",
+        "cutoff": "614518178322418904a5bb6c1e56212af390754c1c3af5a9dee758d22bd7c293",
+        "bbox": "b50d56c143a6ac763d7300cba86aa754bcc1a8ac0bc18b6fec6deae725de2f00",
+        "source_days": "f012b24c0aea00ef6e317427a2501cf109eeccec642f911cc9cacc3bcb497510",
+        "source_first": "ed98c128f1b14d6df8d0bdc6bad30e09512137a9be061a1c1137696cc92f5a7e",
+        "source_end": "9e33d43c07f2b910cc7489f85ed2229a96d9eac8ef2c34dbec58932ccd123b7d"
+      }
+    },
+    "brightkite": {
+      "provider": "https://snap.stanford.edu/data/loc-brightkite.html",
+      "archives": [
+        {
+          "file": "loc-brightkite_totalCheckins.txt.gz",
+          "sha256": "7e35e86b74b5bc80043b7506984b054f16d2553a18e10a5f3ae121cdb0bd8361",
+          "url": "https://snap.stanford.edu/data/loc-brightkite_totalCheckins.txt.gz"
+        }
+      ],
+      "normalized_arrays": {
+        "user_ids": "de226edafc394fe4384bff177f88c19b3f11c89161ce0bc293c010590cd26ba7",
+        "training_counts": "a508e3f961e582397ae6a9c21c2af8d8f949404a1715204380ee25ab69f4d656",
+        "event_worker": "6440ffbc2e072951c3fbefcdcdfe6cbfa59b62144f442c55e8edf1185dafa10a",
+        "event_time": "86e70cd6ad6634afdad68e8d66cacbe93c3edcdfe87f6fb9b346fb2301a0042e",
+        "event_cell": "b19cb84ff98e4addbf5ec6b0e93a102cd6f584dca67150e0135b7fc24ec58ba5",
+        "cutoff": "34d2bad7831c5da9de67ede669745e6354abf2b62a36a70b9bd1522d7c159d63",
+        "bbox": "297b1f657d8906070a801cd2a9760ae6668c5a9232d5b5ceac201cc43372d140",
+        "source_days": "de759562cfa7b907313a0acfe04bff1d787e72bf6102d9d3439ff31aff924eb6",
+        "source_first": "5a2561377cf99081cf09e1aef7e1afe4212f13e422bbb19f83cc3639b2ff1d9c",
+        "source_end": "fffaf08390f3af5e987e355f119b0d0ed945ef722576195671b326d316765a08"
+      }
+    }
+  },
+  "legacy_controlled_field": {
+    "provenance": "Provided controlled RH extract; original product identity is unverified. Not labelled CAQRA or NOAA. Required only for the original-paper legacy cases.",
+    "array_sha256": {
+      "rh": "fea1f833e13c970618c8bbc7b9122cea82c61c0bfd618fde97245bd3da044c39",
+      "dates": "66d924737aa59cec4ac69f19ff51577bff89b363336aaeeac111b5c06602b87f"
+    }
+  },
+  "NOAA": {
+    "product": "https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html",
+    "variable": "Monthly Mean Relative Humidity at sigma level0.995",
+    "licence": "https://www.psl.noaa.gov/data/help/index.html",
+    "scope": "Three spatial blocks of one reanalysis product; neither independent products nor simultaneous crowdsensing observations. Mobility-to-field transfer remains a controlled experiment.",
+    "queries": {
+      "noaa_east_asia": "https://upwell.pfeg.noaa.gov/erddap/griddap/noaa_psl_5044_a685_b2d5.csv?rhum%5B(2013-01-01T00:00:00Z):1:(2019-12-01T00:00:00Z)%5D%5B(47.5):1:(25.0)%5D%5B(100.0):1:(122.5)%5D",
+      "noaa_europe": "https://upwell.pfeg.noaa.gov/erddap/griddap/noaa_psl_5044_a685_b2d5.csv?rhum%5B(2013-01-01T00:00:00Z):1:(2019-12-01T00:00:00Z)%5D%5B(62.5):1:(40.0)%5D%5B(0.0):1:(22.5)%5D",
+      "noaa_north_america": "https://upwell.pfeg.noaa.gov/erddap/griddap/noaa_psl_5044_a685_b2d5.csv?rhum%5B(2013-01-01T00:00:00Z):1:(2019-12-01T00:00:00Z)%5D%5B(50.0):1:(27.5)%5D%5B(240.0):1:(262.5)%5D"
+    },
+    "array_sha256": {
+      "noaa_east_asia__rh": "b738f702ae13df400b14e45e1809f811a49d94dd59da3dc23cbfbc7e4efd671e",
+      "noaa_east_asia__dates": "c8d4ca75f7fc04b946966805e843379ce6a48e9ff850eaa974d9dfff915c7629",
+      "noaa_east_asia__coords": "8bcb6fff44149b4abc7b5cce7f3c885e43421f41dda64da4e19cceb4188cc73f",
+      "noaa_europe__rh": "7020dfc0e86b9741e47c138669c531574ab6d061ae28e8d7812ec163e95daad6",
+      "noaa_europe__dates": "c8d4ca75f7fc04b946966805e843379ce6a48e9ff850eaa974d9dfff915c7629",
+      "noaa_europe__coords": "a68455ac4e0c5b8c34385813e49fe8cd5fe08bbb6dbdfd3fb286d0fe17c768e7",
+      "noaa_north_america__rh": "6d435279648adff3d1fcd76b6c983f08b5e4fc65aa1ddbd37677fe123d18e1a2",
+      "noaa_north_america__dates": "c8d4ca75f7fc04b946966805e843379ce6a48e9ff850eaa974d9dfff915c7629",
+      "noaa_north_america__coords": "ee638e3fb6699b71a462ffed93e6216c4b61cf2b81bcc6fd9eb9296f7d2b37e3"
+    }
+  }
+}

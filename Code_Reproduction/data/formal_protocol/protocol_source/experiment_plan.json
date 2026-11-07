@@ -1,0 +1,300 @@
+{
+  "status": "approved_implementation_audit_and_execution",
+  "original_review_sha256": "a17149c1d32340356a5092264849fd2dbb96b4a95d684de46b818f9109ddf83d",
+  "datasets": [
+    "tdrive",
+    "foursquare_tky",
+    "brightkite"
+  ],
+  "defaults": {
+    "workers": 80,
+    "regions": 100,
+    "requested_per_round": 50,
+    "rounds": 50,
+    "per_round_budget": 450,
+    "honest_share": 0.7,
+    "certified_share_of_all": 0.1,
+    "epsilon_location": 2.1,
+    "epsilon_cost": 2.7
+  },
+  "primary_seeds": [
+    9801,
+    9802,
+    9803,
+    9804,
+    9805,
+    9806,
+    9807,
+    9808
+  ],
+  "sensitivity_seeds": [
+    9701,
+    9702,
+    9703
+  ],
+  "one_factor_values": {
+    "workers": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "budget": [
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      550,
+      600
+    ],
+    "honest_share": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "certified_share": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "epsilon_location": [
+      1.3,
+      1.5,
+      1.7,
+      1.9,
+      2.1
+    ]
+  },
+  "primary_worlds_per_method": 24,
+  "unique_sensitivity_worlds_per_applicable_method": 207,
+  "primary_endpoints": [
+    "TCR",
+    "pairwise_common_RMSE",
+    "macro_F1"
+  ],
+  "main_external_systems": [
+    "BPP",
+    "ETBP-TD",
+    "VLR-BPP",
+    "REAPP"
+  ],
+  "extended_external_systems": [
+    "BPQA",
+    "MMCB"
+  ],
+  "traditional_controls": [
+    "Random",
+    "Greedy-C/R"
+  ],
+  "native_implementation_audit_required": true,
+  "main_ablations": [
+    {
+      "name": "recruitment",
+      "factors": [
+        "dynamic_balance",
+        "reference_opportunity"
+      ],
+      "settings": 4,
+      "paired_worlds_per_setting": 24,
+      "full_design_shared": true
+    },
+    {
+      "name": "feedback",
+      "factors": [
+        "bounded_count_multiplier",
+        "secondary_reference"
+      ],
+      "settings": 4,
+      "paired_worlds_per_setting": 24,
+      "full_design_shared": true,
+      "weighted_mean_denominator": "identical"
+    }
+  ],
+  "supplemental_control_families": [
+    "secondary_weight_and_evidence_cap",
+    "fixed_collection_recovery_source_operator",
+    "grade_and_released_support_information",
+    "earlier_recruitment_policies"
+  ],
+  "full_flow": {
+    "worker_counts": [
+      80,
+      100
+    ],
+    "rounds": 50,
+    "seeds": [
+      9801
+    ],
+    "datasets": "all_three",
+    "campaigns": 6,
+    "topology": "separate processes on one host, real TCP/mTLS",
+    "client_threads": 8,
+    "ledger": "actual Solidity/PyEVM execution, no wide-area consensus claim"
+  },
+  "main_figures": [
+    {
+      "id": "E1",
+      "kind": "cross-paper",
+      "factor": "round",
+      "metrics": [
+        "TCR",
+        "macro_F1"
+      ]
+    },
+    {
+      "id": "E2",
+      "kind": "cross-paper",
+      "factor": "honest_share",
+      "metrics": [
+        "TCR",
+        "macro_F1"
+      ]
+    },
+    {
+      "id": "E3",
+      "kind": "cross-paper",
+      "factor": "budget",
+      "metrics": [
+        "TCR",
+        "pairwise_common_RMSE"
+      ]
+    },
+    {
+      "id": "E4",
+      "kind": "cross-paper",
+      "factor": "workers",
+      "metrics": [
+        "TCR",
+        "pairwise_common_RMSE"
+      ]
+    },
+    {
+      "id": "E5",
+      "kind": "cross-paper",
+      "factor": "epsilon_location",
+      "metrics": [
+        "TCR",
+        "pairwise_common_RMSE"
+      ]
+    },
+    {
+      "id": "E6",
+      "kind": "cross-paper",
+      "factor": "resource_frontier_reuses_budget",
+      "metrics": [
+        "TCR",
+        "settled_payment",
+        "physical_cost"
+      ]
+    },
+    {
+      "id": "E7",
+      "kind": "core-ablation",
+      "factor": "balance_by_opportunity",
+      "metrics": [
+        "TCR",
+        "macro_F1",
+        "resources"
+      ]
+    },
+    {
+      "id": "E8",
+      "kind": "core-ablation",
+      "factor": "count_by_secondary",
+      "metrics": [
+        "TCR",
+        "macro_F1",
+        "false_classification",
+        "reference_coverage"
+      ]
+    },
+    {
+      "id": "E9",
+      "kind": "execution",
+      "factor": "phase_and_scale",
+      "metrics": [
+        "wall_time",
+        "CPU_time",
+        "frame_bytes",
+        "RTT",
+        "memory",
+        "gas"
+      ]
+    }
+  ],
+  "main_tables": [
+    "default_quality_and_resources",
+    "pairwise_common_accuracy_and_domain",
+    "classification_and_both_error_directions",
+    "phase_execution_scope_and_cost"
+  ],
+  "survey": [
+    {
+      "code": "ETBP",
+      "venue": "TMC",
+      "year": 2025,
+      "figure_numbers": "3–8",
+      "empirical_figure_groups": 6,
+      "doi": "10.1109/TMC.2024.3489717",
+      "supplied_pdf_sha256": "855a1e0596711cc29c8bab5b6093867cc11c6f76d44f10cac920a7a56a11d1df"
+    },
+    {
+      "code": "PUSR",
+      "venue": "TDSC",
+      "year": 2025,
+      "figure_numbers": "5–8",
+      "empirical_figure_groups": 4,
+      "doi": "10.1109/TDSC.2024.3418869",
+      "supplied_pdf_sha256": "e8fd22200de43058a21dc2076ae26ee28b780873c72905cb10d9de07b471f18f"
+    },
+    {
+      "code": "MMCB",
+      "venue": "TDSC",
+      "year": 2024,
+      "figure_numbers": "3–6",
+      "empirical_figure_groups": 4,
+      "doi": "10.1109/TDSC.2024.3368655",
+      "supplied_pdf_sha256": "c90b4eb49a88bdc0ccb0d2bc88766bf54de5289b2a680c9a654d3967f87911b6"
+    },
+    {
+      "code": "D2MTS",
+      "venue": "TKDE",
+      "year": 2024,
+      "figure_numbers": "6–13",
+      "empirical_figure_groups": 8,
+      "doi": "10.1109/TKDE.2023.3294503",
+      "supplied_pdf_sha256": "9cccd639358bfee66be21508d73f0b3650acf4c6f7d2f5633ed9444ce6853094"
+    },
+    {
+      "code": "CPRPS",
+      "venue": "TIFS",
+      "year": 2026,
+      "figure_numbers": "8–16",
+      "empirical_figure_groups": 9,
+      "doi": "10.1109/TIFS.2026.3655900",
+      "supplied_pdf_sha256": "545a4f03a21c14599ccc8dd7a57bb6aa102756edc6c42b00e2e0ede7be12a780"
+    },
+    {
+      "code": "RMDF",
+      "venue": "TSC",
+      "year": 2025,
+      "figure_numbers": "4–20",
+      "empirical_figure_groups": 17,
+      "doi": "10.1109/TSC.2024.3506482",
+      "supplied_pdf_sha256": "20b3a253d31e490996ec8c44238b663f9d59775896e145c06399d4887b535fcd"
+    }
+  ],
+  "survey_count_rule": "one numbered empirical figure group; exclude method diagrams, scene and engineering photos",
+  "formal_run_launch_authorized": true,
+  "approval": {
+    "source": "user Q36 confirmation",
+    "date_client": "2026-11-07",
+    "text": "确认，按修订方案执行"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "e2e_foursquare_tky_9801_n100_b450",
+  "kind": "main",
+  "stage": "confirmation",
+  "group": "confirmation",
+  "dataset": "foursquare_tky",
+  "field": "legacy",
+  "seed": 9801,
+  "n": 100,
+  "H": 0.7,
+  "C": 0.1,
+  "gamma": 0.6,
+  "eps1": 2.1,
+  "eps2": 2.7,
+  "budget_override": 450.0,
+  "budget_factor": 0.9473684210526315,
+  "cohort_rule": "training-top200-uniform100"
+}

@@ -1,0 +1,19 @@
+case,role,samples,peak_sampled_process_HWM_KiB,last_sampled_cpu_seconds,scope
+brightkite_n100,broker,180,65724,97.46,process lifetime high-water mark up to last sample; monitor attached after first campaign
+brightkite_n100,ledger,180,84204,61.95,process lifetime high-water mark up to last sample; monitor attached after first campaign
+brightkite_n100,requester,180,190980,12.03,process lifetime high-water mark up to last sample; monitor attached after first campaign
+brightkite_n80,broker,142,61164,70.64,process lifetime high-water mark up to last sample; monitor attached after first campaign
+brightkite_n80,ledger,142,83900,54.51,process lifetime high-water mark up to last sample; monitor attached after first campaign
+brightkite_n80,requester,142,191060,9.55,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n100,broker,179,65388,96.84,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n100,ledger,179,84636,60.16,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n100,requester,179,192572,12.28,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n80,broker,155,56332,76.87,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n80,ledger,155,84272,58.32,process lifetime high-water mark up to last sample; monitor attached after first campaign
+foursquare_tky_n80,requester,155,191648,11.58,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n100,broker,174,65800,95.43,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n100,ledger,174,84264,59.28,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n100,requester,174,191740,10.19,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n80,broker,152,62364,76.79,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n80,ledger,152,84168,58.96,process lifetime high-water mark up to last sample; monitor attached after first campaign
+tdrive_n80,requester,152,191404,9.13,process lifetime high-water mark up to last sample; monitor attached after first campaign

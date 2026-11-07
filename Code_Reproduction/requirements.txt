@@ -1,0 +1,13 @@
+numpy==1.21.5
+scipy==1.7.3
+pandas==1.4.2
+matplotlib==3.5.1
+numba==0.55.1
+llvmlite==0.38.0
+cryptography==3.4.7
+phe==1.5.0
+gmpy2==2.1.5
+eth-tester==0.10.0b3
+py-evm==0.9.0b1
+eth-abi==5.2.0
+eth-account==0.13.7

@@ -1,0 +1,11 @@
+{
+  "source": "D:\\codex\\2026-11-06\\jian\\outputs\\\u591a\u533a\u57df\u8bc1\u636e\u529b\u5ea6_\u8fa8\u8bc6\u8fc7\u7a0b.csv",
+  "source_sha256": "d9a737acc2165db199b7df08a9b8cc672502156a9d1c54761ed2ceb0aa40bc43",
+  "study": "Existing 24-world numerical dynamic-balance feedback comparison; not signed-grade protocol campaign",
+  "aggregation": "mean of 8 seeds for each of 3 fixed trace conditions",
+  "error_bars": false,
+  "methods": [
+    "admission-mean-direct",
+    "admission-count-recovery"
+  ]
+}

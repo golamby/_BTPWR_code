@@ -1,0 +1,44 @@
+{
+  "dataset": "foursquare_tky",
+  "workers": 80,
+  "rounds": 50,
+  "status": "completed",
+  "started_epoch": 1794031977.9702413,
+  "wall_seconds": 157.8822157382965,
+  "stages": {
+    "prepare.py": 2.0699318572878838,
+    "launch_roles.py": 1.3690408691763878,
+    "run_clients.py": 154.4416040852666
+  },
+  "input_world_sha256": "3d2e3852fee63e4557941c58692b73d70a49891c4d663c0243b60a5829fadfb4",
+  "config_sha256": "060e25a3b5533913f8a146e73d2eea4b3f4e454c5efe33a462aba4bfbb821d7f",
+  "protocol_source_sha256": {
+    "anonymous_state.py": "ddacc76fc618444d3b6b9c6ab7ba562b075c3333f2bd5ab2297528c283958e60",
+    "evm_ledger.py": "e0172df44f770572f9f3f86ce31ffb04bb2e7ba431f66200b4adb3ed2372c645",
+    "formal_campaigns.py": "2fa1fbc4abd371004b54afbc482ea1e264fecf2c7b92f7174f38f7d319f60c5c",
+    "functional_check80.py": "2934c85275d24cbd7991291fde8eb0033e1afea6e58f51ab6e491df29045d81a",
+    "generate_measured_tables.py": "364bd36b1678294315575ce4b9209321811ad5d803aab00fe51f746894dd1211",
+    "launch_roles.py": "5e470ee808d1ca4c1a8fd9878cca3a59bce4f26b278a4ca22ad306dec2dbec0f",
+    "plot_evidence_process.py": "6d50d0e46280df64812890dc674d15384be778984dea8ed3cb7fad1013426c49",
+    "prepare.py": "54ddd3458430177e739bf69da27ed322c45e8ab232d93460dcf2ba2f86e27376",
+    "reconstruct_core_figures.py": "4387c010daa725b09e85bbde6b193ce4da3a0129cb0d42da692845ef1124e921",
+    "reconstruct_original_architecture.py": "6ce7a43260c48481e8fd73bcba9b2fcac98df9317969a91947e37753a017249d",
+    "run_clients.py": "0cf48824c63033e98212d0089009867927294a778f78ec0dbdc8a0a4f2ea69be",
+    "securewire.py": "a6faf4f7e93741fbcbd7d549a9e55bdec36d3451ff97ebffa5cf617dc611fd9d",
+    "services.py": "412ba37b6a430b419752260b44d656f73e126d1f2e8ccca02b280acdaec7c4aa",
+    "stop_roles.py": "683bd2c63f21ad88ee354fe459c0fafc75449d8ca229dfc03182adec0d654e99",
+    "test_anonymous_state.py": "f8ca9be231b5f4cbb1127fe28dd17963d3f9587fb0da37e2226510b7a68ce287",
+    "test_issuance_boundary.py": "0bba3ec533e7db3fbadb2663b1eddab5080cfa95edd279d100a229e8a9f8459d",
+    "test_securewire.py": "d1a36e83830de294b9cf225bdd3b2b45abe25829f25b9b09134ca194d9171ded",
+    "test_worker_authorization.py": "64a29b454624361bc0da48ad53e16a397f42f9b91836d3ded15dda4b93ac210e",
+    "transport.py": "bfc5fc5b29bf0e757126a679e79d2e21e330416b12aed5016cbb68ac368a20e1"
+  },
+  "outputs": {
+    "progress.json": "29666d5c9f2fedb6d31f733129314691b3865354c637c97874cb3a9eb1e91426",
+    "network.json": "9f4cdd895c5b841dbf37b40c1ab85bd0e61fafde24291da3606a9e421388f0ab",
+    "timing.json": "1a29e1c172e3fcc3aebea1418256fb74a0c2031b5f6c104c82ddd9ece4df4cf5",
+    "reference_checks.json": "fbd06b29f087411cc959e0d5169d99e3d06e1e91358074bf46d0a19217c86e62",
+    "task_certificates.json": "be69a9c31efbebef6d76937c2a7904a96f4485c4790e56fab94bc8704c79c617",
+    "results.npz": "c69843fa5f19d460308e6752b4c5aca26a02fcab63d581112291639042d3411e"
+  }
+}

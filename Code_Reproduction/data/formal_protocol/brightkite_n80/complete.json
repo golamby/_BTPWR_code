@@ -1,0 +1,44 @@
+{
+  "dataset": "brightkite",
+  "workers": 80,
+  "rounds": 50,
+  "status": "completed",
+  "started_epoch": 1794032135.9240897,
+  "wall_seconds": 143.70730638504028,
+  "stages": {
+    "prepare.py": 1.7695114687085152,
+    "launch_roles.py": 0.917699471116066,
+    "run_clients.py": 141.01841523498297
+  },
+  "input_world_sha256": "319213fb9eb92a155c21fa4c58709c882ec881acec924514370e02aeb4d1f596",
+  "config_sha256": "9dae31ee3a287257c338296a21035d955d31b1e7d33bf46a8c851e26f345436b",
+  "protocol_source_sha256": {
+    "anonymous_state.py": "ddacc76fc618444d3b6b9c6ab7ba562b075c3333f2bd5ab2297528c283958e60",
+    "evm_ledger.py": "e0172df44f770572f9f3f86ce31ffb04bb2e7ba431f66200b4adb3ed2372c645",
+    "formal_campaigns.py": "2fa1fbc4abd371004b54afbc482ea1e264fecf2c7b92f7174f38f7d319f60c5c",
+    "functional_check80.py": "2934c85275d24cbd7991291fde8eb0033e1afea6e58f51ab6e491df29045d81a",
+    "generate_measured_tables.py": "364bd36b1678294315575ce4b9209321811ad5d803aab00fe51f746894dd1211",
+    "launch_roles.py": "5e470ee808d1ca4c1a8fd9878cca3a59bce4f26b278a4ca22ad306dec2dbec0f",
+    "plot_evidence_process.py": "6d50d0e46280df64812890dc674d15384be778984dea8ed3cb7fad1013426c49",
+    "prepare.py": "54ddd3458430177e739bf69da27ed322c45e8ab232d93460dcf2ba2f86e27376",
+    "reconstruct_core_figures.py": "4387c010daa725b09e85bbde6b193ce4da3a0129cb0d42da692845ef1124e921",
+    "reconstruct_original_architecture.py": "6ce7a43260c48481e8fd73bcba9b2fcac98df9317969a91947e37753a017249d",
+    "run_clients.py": "0cf48824c63033e98212d0089009867927294a778f78ec0dbdc8a0a4f2ea69be",
+    "securewire.py": "a6faf4f7e93741fbcbd7d549a9e55bdec36d3451ff97ebffa5cf617dc611fd9d",
+    "services.py": "412ba37b6a430b419752260b44d656f73e126d1f2e8ccca02b280acdaec7c4aa",
+    "stop_roles.py": "683bd2c63f21ad88ee354fe459c0fafc75449d8ca229dfc03182adec0d654e99",
+    "test_anonymous_state.py": "f8ca9be231b5f4cbb1127fe28dd17963d3f9587fb0da37e2226510b7a68ce287",
+    "test_issuance_boundary.py": "0bba3ec533e7db3fbadb2663b1eddab5080cfa95edd279d100a229e8a9f8459d",
+    "test_securewire.py": "d1a36e83830de294b9cf225bdd3b2b45abe25829f25b9b09134ca194d9171ded",
+    "test_worker_authorization.py": "64a29b454624361bc0da48ad53e16a397f42f9b91836d3ded15dda4b93ac210e",
+    "transport.py": "bfc5fc5b29bf0e757126a679e79d2e21e330416b12aed5016cbb68ac368a20e1"
+  },
+  "outputs": {
+    "progress.json": "f6220a2f57c11869a3240ed59025f7746cfed5a5cea9e84d42459aae406e7475",
+    "network.json": "39c7eea0d51ffb5d2e49e4fbc1beec8ef93d19ca20d0126f3364c679e718750c",
+    "timing.json": "3998a04910aebd432d6668dd7ace88372c8a4d7e1d2144f4ac4ea8efeffe5fde",
+    "reference_checks.json": "fbd06b29f087411cc959e0d5169d99e3d06e1e91358074bf46d0a19217c86e62",
+    "task_certificates.json": "e50b1e6a2fc30502816479941bafb8c585228859ab96755248baab9207b15f91",
+    "results.npz": "e85c28e4adb4b93c04c2e4b84d0038adf313baf511a69ce44a5ff3d296a5d022"
+  }
+}
